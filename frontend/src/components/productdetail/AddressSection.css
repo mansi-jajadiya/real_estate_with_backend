@@ -1,0 +1,87 @@
+.address-wrapper {
+  background-color: #f5f5f5;
+}
+
+.address-container {
+  background-color: white;
+}
+
+.address-section {
+  background-color: white;
+  padding: 32px;
+}
+
+.address-title {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.address-maps-btn {
+  background-color: #77c720;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.address-maps-btn:hover {
+  background-color: #5a9e18;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.address-maps-btn:focus {
+  box-shadow: 0 0 0 3px rgba(119, 199, 32, 0.3);
+  color: white;
+  background-color: #77c720;
+}
+
+.address-divider {
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+  opacity: 1;
+  margin: 16px 0;
+}
+
+.address-details {
+  margin-top: 16px;
+}
+
+.address-item {
+  padding: 12px 0;
+}
+
+.address-item-divider {
+  margin: 8px 0 16px 0;
+  border: none;
+  height: 1px;
+  background-color: #e0e0e0;
+  opacity: 1;
+}
+
+.address-label {
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #333;
+}
+
+.address-value {
+  font-family: "Dosis", sans-serif;
+  font-size: 20px;
+  color: #636363;
+  font-weight: 400;
+  text-align: right;
+}

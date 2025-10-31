@@ -1,0 +1,188 @@
+.adminrent-heading{
+ font-family: "Playfair Display", serif;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #77c720;
+  background-color: white;
+}
+
+.ds_role_table thead tr th , td {
+    padding: 15px 15px;
+    text-align: center;
+}
+.ds_table_wrapper{
+   border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+}
+.ds_role_table thead {
+  background-color: #77c720;
+  color: #fff;
+}
+
+.ds_role_table thead tr th{
+     padding: 15px 15px;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid #66a31c;
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+}
+.ds_role_table tbody tr td {
+  padding: 15px 15px;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+  font-family: 'Dosis', sans-serif;
+  font-size: 17px;
+}
+.ds_role_table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.ds_role_table tbody tr:hover {
+  background-color: rgba(119, 199, 32, 0.1);
+}
+.ds_role_table tbody tr td img {
+  border: 2px solid #77c720;
+  border-radius: 6px;
+}
+.pagination-container123 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination-btn123 {
+  background: #fff;
+  border: 1px solid #77c720;
+  color: #77c720;
+  padding: 6px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-family: Dosis, sans-serif;
+  transition: 0.3s;
+}
+
+.pagination-btn123:hover {
+  background: #77c720;
+  color: #fff;
+}
+
+.pagination-btn123.active {
+  background: #77c720;
+  color: #fff;
+}
+
+.pagination-btn123:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 1024px) {
+    .ds_table_wrapper {
+      overflow-x: auto; 
+      display: block; 
+      white-space: nowrap; 
+    }
+  
+    .ds_role_table {
+      min-width: 700px; 
+    }
+  }
+
+@media (max-width: 1200px) {
+  .ds_table_wrapper {
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+  }
+
+  .ds_role_table {
+    min-width: 900px;
+  }
+
+  .pagination-btn123 {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .ds_table_wrapper {
+    overflow-x: auto;
+    display: block;
+    white-space: nowrap;
+  }
+
+  .ds_role_table {
+    min-width: 800px;
+  }
+
+  .adminrent-heading {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .pagination-btn123 {
+    padding: 5px 9px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ds_role_table {
+    min-width: 700px;
+  }
+
+  .adminrent-heading {
+    font-size: 17px;
+    padding: 10px;
+  }
+
+  .pagination-btn123 {
+    padding: 5px 8px;
+    font-size: 15px;
+    margin: 0 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ds_role_table {
+    min-width: 600px;
+
+  }
+
+  .adminrent-heading {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .pagination-container123 {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .pagination-btn123 {
+    padding: 4px 7px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .ds_role_table {
+    min-width: 550px;
+  }
+
+  .adminrent-heading {
+    font-size: 15px;
+  }
+
+  .pagination-btn123 {
+    padding: 3px 6px;
+    font-size: 14px;
+  }
+}

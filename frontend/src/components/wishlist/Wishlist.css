@@ -1,0 +1,164 @@
+.wishlist-container {
+  min-height: 100vh;
+  background-color: #f6fcf6;
+  padding: 2rem 0;
+}
+
+.wishlist-card {
+  background: white;
+  border: 2px solid #4caf5033;
+}
+
+.empty-wishlist {
+  text-align: center;
+  margin-top: 80px;
+  padding: 40px 20px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.empty-wishlist h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #77c720;
+  font-family: "Playfair Display";
+}
+
+.empty-wishlist p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 1rem;
+  font-family: Dosis;
+}
+
+.wishlist-title {
+  font-family: "Playfair Display";
+  margin-bottom: 1rem;
+  color: #77c720;
+}
+
+.wishlist-header {
+  background: #77c720;
+  color: white;
+  padding: 10px;
+  font-family: Dosis;
+  border-radius: 8px;
+}
+
+.wishlist-item {
+  border-bottom: 1px solid #c8e6c9;
+  padding: 12px 0;
+  font-family: Dosis;
+}
+
+.item-title {
+  font-weight: 600;
+  color: #333;
+  font-size: 20px;
+}
+
+.item-description {
+  color: #6c757d;
+  font-size: 16px;
+}
+
+.item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #4caf5033;
+}
+
+.item-price {
+  font-weight: 600;
+  color: #77c720;
+}
+
+.btn-outline-success {
+  border-color: #4caf50;
+  color: #4caf50;
+}
+
+.btn-outline-success:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-outline-danger {
+  border-color: #d32f2f;
+  color: #d32f2f;
+}
+
+.btn-outline-danger:hover {
+  background-color: #d32f2f;
+  color: white;
+}
+
+@media (max-width: 992px) {
+  .wishlist-title {
+    font-size: 1.5rem;
+  }
+
+  .item-image {
+    width: 70px;
+    height: 70px;
+  }
+
+  .item-title {
+    font-size: 18px;
+  }
+
+  .item-description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .wishlist-header {
+    display: none;
+  }
+
+  .wishlist-item {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 10px;
+  }
+
+  .item-image {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .item-title {
+    font-size: 16px;
+  }
+
+  .item-description {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wishlist-title {
+    font-size: 1.2rem;
+  }
+
+  .item-title {
+    font-size: 15px;
+  }
+
+  .item-description {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+  }
+}

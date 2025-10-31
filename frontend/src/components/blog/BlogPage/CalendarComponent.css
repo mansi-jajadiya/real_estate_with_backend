@@ -1,0 +1,47 @@
+.calendar-widget {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  padding: 24px;
+  font-family: "Dosis", sans-serif;
+  width: 100%;
+}
+
+.calendar-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendar-table th {
+  text-align: center;
+  font-size: 13px;
+  color: #222;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.calendar-table td {
+  text-align: center;
+  font-size: 13px;
+  padding: 8px 0;
+  color: #555;
+}
+
+.calendar-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #555;
+}
+
+.calendar-prev,
+.calendar-next {
+  color: #77c720;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.calendar-month {
+  font-weight: 500;
+}

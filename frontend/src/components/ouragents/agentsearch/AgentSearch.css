@@ -1,0 +1,40 @@
+.agent-search-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.search-icon {
+  background: #fff;
+  border-right: none;
+  color: #888;
+}
+
+.input-group {
+  border-radius: 4px;
+}
+
+.search-input {
+  border-left: none;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.search-input:focus {
+  border-color: #ccc !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.search-btn {
+  background-color: #7cc000;
+  border: none;
+  margin-left: 5px;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+  font-family: Dosis;
+}
+
+.search-btn:hover {
+  background-color: #6ab000;
+}

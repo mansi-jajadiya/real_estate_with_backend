@@ -1,0 +1,70 @@
+.admin-header-section {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.admin-brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.admin-logo-icon {
+  color: #4CAF50; 
+}
+
+.admin-brand-name {
+  font-weight: 600;
+  color: #333;
+}
+
+.admin-analytics-btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.analytics-button {
+  border: none;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #77c720;
+  transition: 0.3s;
+}
+
+.admin-profile {
+  display: flex;
+  align-items: center;
+  font-family: Dosis, sans-serif;
+}
+
+.profile-name {
+  font-weight: 600;
+  color: #000;
+}
+
+.profile-role {
+  font-size: 12px;
+  color: #77c721;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  object-fit: cover;
+}
+
+.admin-toggle-btn {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .admin-toggle-btn {
+    display: block;
+  }
+}
+

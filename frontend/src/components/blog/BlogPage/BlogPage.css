@@ -1,0 +1,273 @@
+.blog-page-6789 {
+  font-family: "Dosis";
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.btn2-6789 {
+  height: 35px;
+  width: 100px;
+  background-color: #77c720;
+  color: #ffffff;
+  border: none;
+  border-radius: 7%;
+  margin-right: 25px;
+}
+
+.blog-post-6789 {
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.mainimage-6789 {
+  max-width: 100%;
+  height: 620px;
+  cursor: pointer;
+}
+
+.author-page-img-6789 {
+  object-fit: cover;
+}
+
+.sidebar-box-6789 {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 6px;
+
+  margin: 0px 0px 24px;
+  font-family: "Dosis";
+  width: 320px;
+}
+.sidebar-box-6789 h5 {
+  color: #222222;
+  font-size: 18px;
+  font-family: "Playfair Display";
+  font-weight: 400;
+}
+
+.sidebar-box-6789 h5 {
+  margin-bottom: 15px;
+}
+
+.firstli-6789 {
+  color: #77c720;
+  font-weight: 500;
+  padding: 0 0 0;
+  padding-bottom: 0px;
+}
+.firstp-6789 {
+  color: black;
+}
+.title-blog-6789 {
+  font-family: "Playfair Display";
+  font-size: 25px;
+  color: #222222;
+  font-weight: 400;
+  display: block;
+}
+.list-unstyled-6789 {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.section-title-6789 {
+  font-family: "Georgia", serif;
+  font-weight: 500;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.tags-list-6789 {
+  font-size: 14px;
+  line-height: 2;
+}
+.tags-list-6789 {
+  color: #77c720;
+  font-size: 10.66667px;
+}
+.blog-text-6789 {
+  font-size: 15px;
+  text-decoration: none !important;
+}
+.blogcontaines-6789 {
+  padding: 25px;
+  margin-left: 20px;
+}
+.title-blog-6789:hover {
+  color: #77c720;
+  text-decoration: none !important;
+}
+.flexing-wrap-6789 {
+  margin-left: 15px;
+}
+
+.sticky-sidebar-scroll-6789 {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+  width: 320px;
+  margin-bottom: 48px;
+}
+.aboutblog-p-6789 {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Dosis";
+  color: #222222;
+  line-height: 1.8;
+}
+.author-block-page-6789 {
+  padding-top: 30px;
+  margin-top: 25px;
+  border-top: 1px solid #adabab;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.textgreen-6789 {
+  color: #77c720;
+}
+.textblack-6789 {
+  color: black;
+}
+
+.author-block-details.mt-4 {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  border-top: none !important;
+}
+
+.text-green-6789 {
+  color: #77c720;
+}
+.textblack-6789 {
+  color: black;
+}
+
+.text-green-6789 {
+  color: #77c720;
+}
+@media screen and (min-width: 1600px) {
+  .mainimage-6789 {
+    width: 1050px;
+    height: auto;
+  }
+
+  .sidebar-box-6789 {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .mainimage-6789 {
+    width: 990px;
+    height: auto;
+  }
+
+  .sidebar-box-6789 {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 1197px) {
+  .blogcontaines-6789 {
+    padding: 25px;
+  }
+  .btn2-6789 {
+    max-width: 500px;
+    width: 100%;
+    margin-top: 13px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .containerblog-6789 > .rowblog-6789 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .colmd8blog-6789,
+  .colmd3blog-6789 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
+  }
+
+  .sticky-sidebar-scroll-6789 {
+    position: static !important;
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  .mainimage-6789 {
+    object-fit: fill;
+  }
+  .author-block-page-6789 {
+    padding-left: 35px;
+  }
+  .sidebar-box-6789 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .blog-text-6789,
+  .title-blog-6789 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .blog-text-6789,
+  .title-blog-6789 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .sidebar-box-6789 {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .mainimage-6789 {
+    height: 500px !important;
+  }
+  .btn2-6789 {
+    margin-top: 10px;
+  }
+
+  .blog-text-6789 {
+    font-size: 15px;
+  }
+  .author-block-page-6789 {
+    font-size: 14px;
+  }
+  .btn2-6789 {
+    padding: 1 !important ;
+    width: 500px;
+    height: 30px;
+  }
+  .author-page-img-6789 {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .blog-text-6789 {
+    font-size: 14px;
+  }
+
+  .btn2-6789 {
+    width: 500px;
+    height: 32px;
+    margin-right: 15px;
+    margin-top: 20px;
+  }
+
+  .mainimage-6789 {
+    max-height: 250px;
+    width: 100%;
+    height: 100%;
+  }
+}

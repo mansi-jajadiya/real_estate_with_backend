@@ -1,0 +1,62 @@
+.sidebar {
+  background: white;
+  border: 1px solid #eee;
+  padding: 16px;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+.sidebar-wrapper {
+  position: sticky;
+  top: 0;
+}
+.bottom {
+  background-color: white;
+}
+
+.sidebar-section {
+  margin-bottom: 24px;
+}
+
+.sidebar-title {
+  font-size: 20px;
+  color: #222;
+  font-family: "Playfair Dosis";
+  margin-bottom: 12px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 6px;
+}
+
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-list li {
+  display: flex;
+  justify-content: left;
+  padding: 6px 0;
+  transition: color 0.2s ease;
+  font-family: Dosis;
+  font-size: 16px;
+  color: #77c720;
+}
+
+.sidebar-list li span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: auto;
+}
+
+.rent {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 4px;
+  color: white;
+  font-family: Dosis, sans-serif;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3px;
+}

@@ -1,0 +1,146 @@
+.description-section {
+  background-color: white;
+  padding: 2rem;
+}
+
+.description-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.description-divider {
+  border: none;
+  height: 1px;
+  background-color: #636363;
+  margin: 1.5rem 0;
+}
+
+.description-content {
+  max-width: 100%;
+}
+
+.description-paragraph {
+  font-family: "Dosis", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #636363;
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}
+
+.description-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.description-wrapper {
+  background-color: #f5f5f5;
+  padding: 2rem 0;
+}
+
+.description-container {
+  background-color: white;
+}
+
+@media (max-width: 991.98px) {
+  .description-wrapper {
+    padding: 1.5rem 0;
+  }
+
+  .description-section {
+    padding: 1.75rem;
+  }
+
+  .description-title {
+    font-size: 1.4rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .description-paragraph {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+  }
+
+  .description-divider {
+    margin: 1.25rem 0;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .description-wrapper {
+    padding: 1rem 0;
+  }
+
+  .description-section {
+    padding: 1.5rem;
+  }
+
+  .description-title {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .description-paragraph {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .description-divider {
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .description-wrapper {
+    padding: 0.75rem 0;
+  }
+
+  .description-section {
+    padding: 1rem;
+  }
+
+  .description-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .description-paragraph {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+  }
+
+  .description-divider {
+    margin: 0.75rem 0;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .description-wrapper {
+    padding: 0.5rem 0;
+  }
+
+  .description-section {
+    padding: 0.75rem;
+  }
+
+  .description-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .description-paragraph {
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+
+  .description-divider {
+    margin: 0.5rem 0;
+  }
+}

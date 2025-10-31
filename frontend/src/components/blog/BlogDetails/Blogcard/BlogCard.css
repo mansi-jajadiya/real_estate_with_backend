@@ -1,0 +1,117 @@
+.blog-card-container-blogpage-6789 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 15px;
+  margin: 0 auto;
+}
+
+.blog-card-wrapper-blogpage-6789 {
+  flex: 1 1 0;
+  max-width: 33%;
+}
+
+.blog-card-blogpage-6789 {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 7px;
+  box-sizing: border-box;
+}
+
+.blog-image-blogpage-6789 img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.blog-image-blogpage-6789 {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.blog-image-blogpage-6789::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.blog-image-blogpage-6789:hover::after {
+  opacity: 1;
+}
+
+.blog-content-blogpage-6789 {
+  padding: 12px;
+  flex-grow: 1;
+}
+
+.blog-title-blogpage-6789 {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  color: #222;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.blog-desc-blogpage-6789 {
+  font-size: 16px;
+  font-family: "Dosis";
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.continue-blogpage-6789 {
+  font-size: 14px;
+  font-family: "Dosis";
+  color: #77c720;
+  text-decoration: none;
+}
+.continue-blogpage-6789:hover {
+  text-decoration: none;
+  color: #77c720;
+}
+.card-footer-blogpage-6789 {
+  padding: 8px 12px;
+  font-size: 13px;
+  color: #666;
+  border-top: 1px solid #eee;
+  background: #fafafa;
+}
+.text-blogpage-6789 {
+  color: #77c720;
+  font-size: 12px;
+}
+
+@media (max-width: 991px) {
+  .blog-card-container-blogpage-6789 {
+    flex-wrap: wrap;
+  }
+  .blog-card-wrapper-blogpage-6789 {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 775px) {
+  .blog-card-wrapper-blogpage-6789 {
+    max-width: 100%;
+  }
+  .blog-card-wrapper-blogpage-6789 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}

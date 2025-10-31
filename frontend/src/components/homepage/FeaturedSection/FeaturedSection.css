@@ -1,0 +1,135 @@
+.featured-section12 {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+}
+
+.section-title12 {
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.section-subtext12 {
+  color: #777;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Dosis", Sans-serif;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+
+@media (min-width: 1920px) {
+  .featured-section12 {
+    padding: 80px 40px;
+  }
+
+  .section-title12 {
+    font-size: 48px;
+    margin: 30px 0 20px 0;
+  }
+
+  .section-subtext12 {
+    font-size: 18px;
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 1919px) and (min-width: 1200px) {
+  .featured-section12 {
+    padding: 70px 30px;
+  }
+
+  .section-subtext12 {
+    font-size: 17px;
+    max-width: 750px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .featured-section12 {
+    padding: 60px 25px;
+  }
+
+  .section-title12 {
+    font-size: 38px;
+  }
+
+  .section-subtext12 {
+    font-size: 16px;
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .featured-section12 {
+    padding: 50px 20px;
+  }
+
+  .section-title12 {
+    font-size: 34px;
+    margin: 15px 0 20px 0;
+  }
+
+  .section-subtext12 {
+    font-size: 15px;
+    max-width: 600px;
+    letter-spacing: 0.8px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 576px) {
+  .featured-section12 {
+    padding: 40px 15px;
+  }
+
+  .section-title12 {
+    font-size: 28px;
+    margin: 10px 0 20px 0;
+  }
+
+  .section-subtext12 {
+    font-size: 14px;
+    max-width: 100%;
+    letter-spacing: 0.6px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 575px) {
+  .featured-section12 {
+    padding: 30px 10px;
+  }
+
+  .section-title12 {
+    font-size: 24px;
+    margin: 8px 0 20px 0;
+    line-height: 1.3;
+  }
+
+  .section-subtext12 {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 319px) {
+  .featured-section12 {
+    padding: 25px 8px;
+  }
+
+  .section-title12 {
+    font-size: 22px;
+    margin: 6px 0 20px 0;
+  }
+
+  .section-subtext12 {
+    font-size: 12px;
+    letter-spacing: 0.4px;
+  }
+}

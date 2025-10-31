@@ -1,0 +1,136 @@
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.main-image-container img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.thumbnail-container {
+  position: relative;
+}
+
+.thumbnail-container img {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.helloimg {
+  margin-top: 20px;
+}
+
+.more-photos-badge {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  backdrop-filter: blur(4px);
+}
+
+.badge-icon {
+  font-size: 0.875rem;
+}
+
+.property-info-section {
+  margin-top: 0;
+  background: white;
+  border: none;
+  padding: 24px 0;
+}
+
+.property-info-section .info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.property-card {
+  background: transparent;
+  border: none;
+  border-right: 1px solid #e5e5e5;
+  border-radius: 0;
+  padding: 0 24px;
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: none;
+  transition: none;
+  flex: 1;
+  min-height: 80px;
+}
+
+.property-card:last-child {
+  border-right: none;
+}
+
+.property-card:hover {
+  box-shadow: none;
+  transform: none;
+}
+
+.property-icon {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.property-label {
+  font-size: 11px;
+  color: #222222;
+  font-family: Dosis;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+  font-weight: 400 !important;
+  line-height: 1.2;
+}
+
+.property-value {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  font-family: Dosis;
+  line-height: 1.2;
+}
+
+.property-sub {
+  font-size: 18px;
+  color: #222222;
+  font-family: Dosis;
+  margin-top: 2px;
+  text-transform: capitalize;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.property-card .property-label:not(.property-value) {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2c3e50;
+  text-transform: none;
+  letter-spacing: normal;
+  margin-bottom: 2px;
+  line-height: 1;
+}

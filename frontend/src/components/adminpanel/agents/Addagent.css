@@ -1,0 +1,69 @@
+.add-agent-path{
+    background-color: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  font-family: "playfair display", serif;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); 
+}
+
+.add-span{
+    color: #77c720;
+    font-weight: bold;
+}
+
+.add-age-name{
+  font-family: Dosis, sans-serif;
+  font-size: 18px;
+}
+
+.add-age-btns{
+  background-color: #77c720;
+  color: white;
+  font-family: Dosis, sans-serif;
+  font-size: 18px;
+}
+
+.add-age-card {
+  border: none;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.add-age-name {
+  font-family: Dosis, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.add-age-input {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-age-input:focus {
+  border-color: #77c720;
+  box-shadow: 0 0 0 0.2rem rgba(119, 199, 32, 0.25);
+  outline: none;
+}
+
+.add-age-btns {
+  background-color: #77c720;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 28px;
+  font-family: Dosis, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+}
+
+.add-age-btns:hover {
+  background-color: #66a61f;
+  color: #fff;
+}

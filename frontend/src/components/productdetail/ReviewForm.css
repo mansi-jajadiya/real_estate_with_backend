@@ -1,0 +1,105 @@
+.unique-review-section {
+  background-color: #f5f5f5;
+  padding: 0;
+}
+
+.unique-review-box {
+  background-color: #f5f5f5;
+  border: none;
+}
+
+.unique-review-card {
+  background: white;
+  border: none;
+  padding: 16px;
+  border-radius: 0 !important;
+}
+.unique-review-card h5 {
+  font-family: "Playfair display";
+  font-weight: 400;
+}
+
+.unique-review-title {
+  font-weight: 400;
+  color: #222222;
+  font-family: "Playfair display";
+  font-size: 18px;
+}
+
+.unique-review-stars {
+  color: #ff9800;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.unique-review-rating-text {
+  font-size: 16px;
+  color: #222222;
+  font-family: Dosis;
+}
+
+.unique-review-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.unique-review-item h6 {
+  font-family: "Playfair display";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.unique-review-meta {
+  font-size: 13px;
+  color: #636363;
+  font-family: Dosis;
+  margin-bottom: 4px;
+}
+
+.unique-review-text {
+  font-size: 16px;
+  font-family: Dosis;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.unique-review-like-dislike {
+  font-size: 16px;
+}
+.unique-review-like {
+  margin-right: 12px;
+  color: #28a745;
+}
+.unique-review-dislike {
+  color: #dc3545;
+}
+
+.review-alert-danger,
+.review-alert-success {
+  font-family: Dosis;
+}
+
+.unique-review-btn-green {
+  background-color: #77c720;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-family: Dosis;
+}
+.unique-review-btn-green:hover {
+  background-color: #7ab531;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .unique-review-avatar {
+    width: 50px;
+    height: 50px;
+  }
+  .unique-review-title {
+    font-size: 1rem;
+  }
+}

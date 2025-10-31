@@ -1,0 +1,233 @@
+.admin_dashboard-container {
+  padding: 2rem;
+}
+
+.admin_dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2c3e50;
+  font-family: "Playfair display";
+  margin-bottom: 0.25rem;
+}
+
+.admin_dashboard-subtitle {
+  color: #6c757d;
+  font-size: 1rem;
+  font-family: "Playfair display";
+  margin-bottom: 0;
+}
+
+.admin_refresh-btn {
+  border-radius: 8px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  border:1px solid #77c720;
+  background-color: white;
+  color: #77c720;
+  font-family: Dosis;
+}
+
+.admin_refresh-btn:hover{
+    background-color: #77c720;
+    color: white;
+}
+.admin_total-properties-card {
+  background: linear-gradient(135deg, #77c720,hsl(89, 61%, 52%));
+  border-radius: 16px;
+  padding: 2rem;
+  color: white;
+  font-family: Dosis;
+  box-shadow: 0 10px 30px rgba(107, 255, 112, 0.3);
+}
+
+.admin_properties-icon {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-right: 1.5rem;
+}
+
+.admin_properties-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.admin_properties-subtitle {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 0;
+}
+
+.admin_properties-count {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: right;
+}
+
+.admin_property-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  font-family: Dosis;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+}
+
+.admin_property-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.admin_property-number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.admin_property-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.admin_property-target {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.admin_progress-circle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.admin_progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.admin_chart-heading{
+    font-family: "playfair display";
+}
+.admin_chart-card{
+    border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .admin_dashboard-container {
+    padding: 1rem;
+  }
+
+  .admin_dashboard-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .admin_dashboard-subtitle {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+   
+    .admin_refresh-btn {
+    display: block;
+    width: auto;        
+    max-width: 200px;   
+    margin-top:10px;
+    margin-right: 10px; 
+  }
+
+  .admin_total-properties-card {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .admin_properties-icon {
+    margin: 0 auto 1rem auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .admin_properties-title {
+    font-size: 1.2rem;
+  }
+
+  .admin_properties-count {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .admin_property-card {
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  .admin_property-number {
+    font-size: 2rem;
+  }
+
+  .admin_property-title {
+    font-size: 1rem;
+  }
+
+  .admin_property-target {
+    font-size: 0.85rem;
+  }
+
+  .admin_property-card .admin_progress-circle,
+  .admin_property-card .col-auto {
+    margin-top: 1rem;
+    width: 120px !important;
+    height: 120px !important;
+  }
+
+  .admin_chart-card {
+    padding: 1rem;
+  }
+
+  .admin_chart-heading {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .admin_dashboard-title {
+    font-size: 1.3rem;
+  }
+
+  .admin_properties-count {
+    font-size: 2rem;
+  }
+
+  .admin_property-number {
+    font-size: 1.6rem;
+  }
+
+  .admin_property-card .admin_progress-circle,
+  .admin_property-card .col-auto {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

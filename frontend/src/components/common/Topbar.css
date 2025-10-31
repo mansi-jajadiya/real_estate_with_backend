@@ -1,0 +1,41 @@
+.topbar-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: none;
+}
+.dropdown-item {
+  font-family: Dosis;
+}
+.main {
+  color: black;
+}
+
+.topbar-link:hover {
+  color: rgba(119, 199, 32, 1);
+}
+
+.dropdown .btn-dark:hover,
+.dropdown .btn-dark:focus {
+  color: rgba(119, 199, 32, 1);
+  background-color: transparent;
+}
+
+.dropdown-menu-dark .dropdown-item {
+  color: white;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.dropdown-menu-dark .dropdown-item:hover {
+  background-color: #000;
+  color: rgba(119, 199, 32, 1);
+}
+
+@media (max-width: 767.98px) {
+  .topbar {
+    display: none;
+  }
+}

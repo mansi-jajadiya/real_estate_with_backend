@@ -1,0 +1,108 @@
+.info-card-wrapper {
+  background-color: #f5f5f5;
+  padding: 40px 0;
+}
+
+.info-card-box {
+  background: #fff;
+  padding: 20px;
+}
+
+.info-title {
+  font-weight: 400;
+  margin-bottom: 15px;
+  font-family: "Playfair display";
+  font-size: 20px;
+}
+
+.info-desc {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: Dosis;
+}
+
+.info-language {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #333;
+  font-family: Dosis;
+  display: flex;
+  align-items: center;
+}
+.btn1 {
+  background-color: #77c720;
+  font-family: Dosis;
+  padding: 10px;
+  color: white;
+}
+
+.btn2 {
+  border: 1px solid #77c720;
+  font-family: Dosis;
+  padding: 10px;
+  color: #77c720;
+}
+
+.info-contact-box {
+  background: #fff;
+  padding: 20px;
+}
+
+.contact-title34 {
+  font-weight: 400;
+  font-family: "Playfair display";
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.contact-address {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #636363;
+  font-family: Dosis;
+  margin-bottom: 15px;
+}
+
+.contact-list div {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-family: Dosis;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0px;
+}
+.contact-list span {
+  color: #636363;
+}
+
+.social-label {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #636363;
+  font-family: Dosis;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.btn-outline-green {
+  background: none;
+  border: 1px solid #28a745;
+  color: #28a745;
+  padding: 10px;
+  font-weight: 500;
+}
+
+@media (max-width: 991px) {
+  .info-card-box,
+  .info-contact-box {
+    margin-bottom: 20px;
+  }
+}

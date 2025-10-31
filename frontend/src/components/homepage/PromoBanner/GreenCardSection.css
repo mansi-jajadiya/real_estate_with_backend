@@ -1,0 +1,124 @@
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-box {
+  background-color: #76c82e;
+  max-width: 500px;
+  width: 100%;
+  min-height: 350px;
+  color: white;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.8s ease;
+}
+
+.hero-box.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.hero-box h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 2.75rem;
+  margin-bottom: 20px;
+}
+
+.hero-box p {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+}
+
+.custom-btn-outline {
+  border: 1px solid white;
+  color: white;
+  padding: 6px 20px;
+  font-weight: bold;
+  border-radius: 2px;
+  width: fit-content;
+  transition: all 0.3s ease;
+}
+
+.custom-btn-outline:hover {
+  background-color: white;
+  color: #76c82e;
+}
+
+@media (max-width: 991.98px) {
+  .hero-box {
+    padding: 40px;
+    max-width: 90%;
+  }
+
+  .hero-box h2 {
+    font-size: 2.25rem;
+  }
+
+  .hero-box p {
+    font-size: 0.95rem;
+  }
+
+  .btn-outline-light {
+    font-size: 0.95rem;
+    padding: 7px 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-box {
+    padding: 30px 20px;
+    margin: 0;
+  }
+
+  .hero-box h2 {
+    font-size: 1.75rem;
+  }
+
+  .hero-box p {
+    font-size: 0.9rem;
+  }
+
+  .btn-outline-light {
+    font-size: 0.9rem;
+    padding: 6px 18px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-box {
+    padding: 25px 15px;
+  }
+
+  .hero-box h2 {
+    font-size: 1.5rem;
+  }
+
+  .hero-box p {
+    font-size: 0.85rem;
+    letter-spacing: 0.8px;
+  }
+
+  .btn-outline-light {
+    font-size: 0.85rem;
+    padding: 5px 16px;
+  }
+}

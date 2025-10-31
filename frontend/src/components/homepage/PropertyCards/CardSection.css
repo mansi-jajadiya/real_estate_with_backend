@@ -1,0 +1,192 @@
+.frc-wrapper {
+  background-color: #f5f5f5;
+}
+.frc-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+.frc-img-container {
+  position: relative;
+  overflow: hidden;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+}
+.frc-img-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
+.frc-img-container:hover::after {
+  opacity: 0;
+}
+.frc-img-container .frc-icon-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.frc-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.frc-badge-rt {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 4px;
+  color: white;
+  font-family: Dosis, sans-serif;
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 3px;
+}
+.featured-badge {
+  font-size: 10px;
+  text-transform: uppercase;
+  padding: 4px;
+  color: white;
+  font-family: Dosis, sans-serif;
+  background-color: #77c720;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.frc-property-title {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.frc-property-title:hover {
+  color: #77c720;
+  cursor: pointer;
+}
+
+.frc-price {
+  font-size: 18px;
+  font-weight: 600;
+}
+.frc-category {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: Dosis;
+}
+
+.frc-info-icons {
+  font-size: 1.1rem;
+  margin-top: -15px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.3rem;
+}
+.frc-info-icons span {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.frc-icon-btn {
+  width: 36px;
+  height: 36px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+.frc-header p {
+  font-family: Dosis;
+}
+.frc-icon-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.frc-arrow {
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.7);
+  border: none;
+  font-size: 35px;
+  padding: 0;
+  z-index: 3;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.frc-arrow:hover {
+  color: #fff !important;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.7), 0 0 1px rgba(255, 255, 255, 1);
+}
+.frc-arrow-left {
+  left: 10px;
+}
+.frc-arrow-right {
+  right: 10px;
+}
+
+.breadcrumb-item {
+  font-family: Dosis;
+}
+
+.frc-pagination {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+  padding-left: 0;
+}
+.frc-pagination .frc-page-item {
+  display: inline-block;
+}
+.frc-pagination .frc-page-link {
+  border-radius: 6px;
+  padding: 8px 14px;
+  color: #333;
+  background: #fff;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  font-family: Dosis;
+  cursor: pointer;
+}
+.frc-pagination .frc-page-link:hover {
+  background: #f5f5f5;
+  border-color: #bbb;
+  color: #000;
+}
+.frc-pagination .frc-page-item.active .frc-page-link {
+  background: #77c720;
+  border-color: #77c720;
+  color: #fff;
+  font-weight: 600;
+}
+.frc-pagination .frc-page-item.disabled .frc-page-link {
+  background: #eee;
+  color: #aaa;
+  pointer-events: none;
+}
+.frc-pagination .frc-page-link svg {
+  font-size: 16px;
+  vertical-align: middle;
+  color: #77c720;
+}
+.model-h2 {
+  font-family: "Playfair Display", serif;
+}
+.model-p {
+  font-family: Dosis, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}

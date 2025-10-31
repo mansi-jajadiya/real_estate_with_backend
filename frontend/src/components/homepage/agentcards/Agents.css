@@ -1,0 +1,180 @@
+.agents-section {
+  background-color: #f5f5f5;
+  padding: 80px 0;
+}
+
+.agents-title {
+  font-family: "Playfair Display", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.agents-subtitle {
+  color: #6c757d;
+  font-family: "Dosis", Sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  max-width: 600px;
+  margin: 0;
+}
+
+.agent-card {
+  background: white;
+  border-radius: 0;
+  padding: 40px 25px;
+  text-align: center;
+  box-shadow: none;
+  transition: all 0.3s ease;
+  border: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.agent-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.agent-image-wrapper {
+  position: relative;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.agent-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.verified-badge {
+  position: absolute;
+  top: 0;
+  right: calc(50% - 85px);
+  z-index: 10;
+}
+
+.verified-badge .badge {
+  background-color: #77c720;
+  color: white;
+  font-size: 0.65rem;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.agent-info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.agent-name {
+  color: #77c720;
+  font-family: Dosis;
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  line-height: 1.2;
+}
+
+.agent-title {
+  color: #222222;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  line-height: 1.3;
+  font-family: Dosis;
+}
+
+.agent-description {
+  color: #222222;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  flex-grow: 1;
+  overflow: hidden;
+  font-family: Dosis;
+}
+
+.view-profile-link {
+  color: #77c720;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Dosis;
+  transition: color 0.3s ease;
+  margin-top: auto;
+  border:none;
+  background-color: white;
+}
+
+.view-profile-link:hover {
+  color: #5a8a2a;
+  text-decoration: none;
+}
+
+@media (max-width: 992px) {
+  .agents-title {
+    font-size: 2.2rem;
+  }
+
+  .agents-subtitle {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .agents-section {
+    padding: 60px 0;
+  }
+
+  .agents-title {
+    font-size: 2rem;
+  }
+
+  .agent-card {
+    padding: 30px 20px;
+  }
+
+  .agent-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .verified-badge {
+    right: calc(50% - 70px);
+  }
+}
+
+@media (max-width: 576px) {
+  .agents-title {
+    font-size: 1.8rem;
+  }
+
+  .agents-subtitle {
+    font-size: 0.8rem;
+    padding: 0 15px;
+  }
+
+  .agent-card {
+    padding: 25px 15px;
+  }
+}

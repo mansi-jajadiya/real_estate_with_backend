@@ -1,0 +1,185 @@
+.admin-agents-header {
+  background-color: white;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05); 
+}
+
+.admin-agents-title {
+  font-weight: 400;
+  color: #77c720;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+
+.btn-add-agent {
+  background-color: rgba(119, 199, 32, 0.2);
+  color: #77c720;
+  font-weight: 500;
+  border: 1px solid #77c720;
+  border-radius: 10px;
+  padding: 8px 18px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Dosis, sans-serif;
+  transition: 0.3s;
+}
+
+.btn-add-agent:hover {
+  background-color: #77c720;
+  color: white;
+}
+
+
+.admin-agent-card {
+  border-radius: 1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: none;
+  background-color: white;
+}
+
+.admin-agent-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.admin-agent-img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 5px solid #e9ecef;
+}
+
+.admin-agent-name {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+}
+
+.admin-agent-company {
+  font-size: 14px;
+  font-family: Dosis, sans-serif;
+  color: #77c720;
+}
+
+.admin-agent-desc {
+  font-size: 14px;
+  color: #495057;
+  min-height: 50px;
+  font-family: Dosis, sans-serif;
+}
+.list123-unstyled{
+  list-style-type: none;
+  padding: 0;
+}
+.admin-li{
+  font-size: 14px;
+  font-family: Dosis;
+}
+.btn-edit {
+  background-color: rgba(119, 199, 32, 0.15);
+  color: #77c720;
+  border: 1px solid #77c720;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-edit:hover {
+  background-color: #77c720;
+  color: #fff;
+}
+
+.btn-delete {
+  background-color: rgba(220, 53, 69, 0.15);
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+
+@media (max-width: 992px) {
+  .admin-agent-name {
+    font-size: 16px;
+  }
+  .admin-agent-company,
+  .admin-agent-desc,
+  .admin-li {
+    font-size: 13px;
+  }
+  .btn-edit,
+  .btn-delete {
+    font-size: 13px;
+    padding: 5px 12px;
+  }
+  .admin-agent-img {
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .admin-agents-title {
+    font-size: 22px;
+  }
+  .btn-add-agent {
+    font-size: 16px;
+    padding: 6px 14px;
+  }
+  .admin-agent-name {
+    font-size: 18px;
+  }
+  .admin-agent-company,
+  .admin-agent-desc,
+  .admin-li {
+    font-size: 15px;
+  }
+  .admin-agent-img {
+    width: 65px;
+    height: 65px;
+  }
+  .btn-edit,
+  .btn-delete {
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .admin-agents-title {
+    font-size: 18px;
+  }
+  .btn-add-agent {
+    font-size: 15px;
+    padding: 5px 12px;
+  }
+  .admin-agent-name {
+    font-size: 16px;
+  }
+  .admin-agent-company,
+  .admin-agent-desc,
+  .admin-li {
+    font-size: 13px;
+  }
+  .admin-agent-img {
+    width: 55px;
+    height: 55px;
+  }
+  .btn-edit,
+  .btn-delete {
+    font-size: 14px;
+    padding: 3px 8px;
+  }
+}

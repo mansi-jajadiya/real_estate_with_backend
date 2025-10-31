@@ -1,0 +1,131 @@
+.From-blog-section {
+  padding: 40px 20px;
+  background-color: white;
+}
+
+.From-blog-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+.From-blog-subtitle {
+  font-size: 16px;
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #6c757d;
+}
+@media (max-width: 1400px) {
+  .From-blog-section {
+    padding: 35px 18px;
+  }
+
+  .From-blog-heading {
+    font-size: 36px;
+  }
+
+  .From-blog-subtitle {
+    font-size: 15px;
+    letter-spacing: 1.8px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .From-blog-section {
+    padding: 32px 16px;
+  }
+
+  .From-blog-heading {
+    font-size: 34px;
+  }
+
+  .From-blog-subtitle {
+    font-size: 14px;
+    letter-spacing: 1.6px;
+  }
+}
+
+@media (max-width: 992px) {
+  .From-blog-section {
+    padding: 30px 15px;
+  }
+
+  .From-blog-heading {
+    font-size: 32px;
+  }
+
+  .From-blog-subtitle {
+    font-size: 14px;
+    letter-spacing: 1.4px;
+  }
+}
+
+@media (max-width: 768px) {
+  .From-blog-section {
+    padding: 25px 12px;
+  }
+
+  .From-blog-heading {
+    font-size: 28px;
+    margin-bottom: 1rem !important;
+  }
+
+  .From-blog-subtitle {
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .From-blog-section {
+    padding: 20px 10px;
+  }
+
+  .From-blog-heading {
+    font-size: 24px;
+    letter-spacing: 0.8px;
+  }
+
+  .From-blog-subtitle {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  .From-blog-section {
+    padding: 18px 8px;
+  }
+
+  .From-blog-heading {
+    font-size: 22px;
+    letter-spacing: 0.6px;
+  }
+
+  .From-blog-subtitle {
+    font-size: 11px;
+    letter-spacing: 0.8px;
+  }
+}
+
+@media (max-width: 360px) {
+  .From-blog-section {
+    padding: 15px 5px;
+  }
+
+  .From-blog-heading {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+
+  .From-blog-subtitle {
+    font-size: 10px;
+    letter-spacing: 0.6px;
+  }
+}

@@ -1,0 +1,183 @@
+.agentx-section {
+  background-color: #f5f5f5;
+  padding: 0 0;
+}
+/* .img-container {
+  cursor: pointer;
+} */
+
+.agentx-sidebar-card {
+  background: white;
+  border: none;
+  padding: 16px;
+}
+.agentx-sidebar-card h5 {
+  font-family: "Playfair display";
+  font-weight: 400;
+}
+.riddhi {
+  position: sticky;
+  top: 80px;
+  align-self: flex-start;
+}
+
+.agentx-btn {
+  background-color: #77c720;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-family: Dosis;
+}
+.agentx-btn:hover {
+  background-color: #7ab531;
+  color: white;
+}
+
+.agentx-breadcrumb-wrap {
+  margin-bottom: 1rem;
+}
+.agentx-breadcrumb {
+  font-family: Dosis;
+  font-size: 15px;
+}
+.agentx-breadcrumb-link {
+  color: #77c720;
+  cursor: pointer;
+}
+.agentx-title {
+  font-family: "Playfair display";
+  font-weight: 400;
+}
+
+.agentx-card {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.agentx-photo {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.agentx-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.agentx-verified-badge {
+  background: #77c720;
+  color: white;
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-family: "Playfair display";
+  text-transform: uppercase;
+  border: 1px solid #d4edda;
+}
+
+.agentx-name {
+  font-family: "Playfair display";
+  font-weight: 400;
+  color: #333;
+  font-size: 18px;
+}
+.agentx-name:hover {
+  color: #77c720;
+  cursor: pointer;
+}
+.agentx-rating {
+  color: #ffc107;
+  font-size: 16px;
+}
+
+.agentx-company {
+  font-size: 16px;
+  margin-bottom: 20px !important;
+  color: #666;
+  text-align: left;
+  font-family: Dosis;
+}
+
+.agentx-contact {
+  margin-bottom: 25px;
+}
+
+.agentx-contact-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.agentx-contact-row:last-child {
+  border-bottom: none;
+}
+
+.agentx-contact-label {
+  font-weight: 700;
+  color: #333;
+  font-family: Dosis;
+  font-size: 16px;
+  min-width: 60px;
+}
+
+.agentx-contact-value {
+  color: #77c720;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Dosis;
+  text-align: right;
+}
+
+.agentx-social svg {
+  font-size: 18px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.2s ease-in-out;
+}
+
+.agentx-social svg:hover {
+  color: #77c720;
+}
+
+.form-control {
+  border-radius: 0 !important;
+}
+
+@media (max-width: 992px) {
+  .agentx-info {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .agentx-sidebar-card h5 {
+    font-size: 1rem;
+  }
+
+  .agentx-card {
+    flex-direction: column;
+  }
+
+  .agentx-photo {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 15px;
+  }
+
+  .agentx-info {
+    margin-left: 0 !important;
+  }
+
+  .agentx-contact-row {
+    gap: 20px;
+  }
+}

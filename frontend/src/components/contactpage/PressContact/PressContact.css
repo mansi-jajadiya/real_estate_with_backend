@@ -1,0 +1,85 @@
+.bg-light-green-section-6789 {
+  background-color: #eaf7e0 !important; 
+  border-radius: 4px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  margin-right: 10px;
+}
+
+/* strong {
+  font-weight: 700;
+} */
+
+.strongfirst-6789 {
+  font-size: 16px;
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Dosis';
+  font-weight: 700;
+}
+.amy_miller_p-6789{
+  font-family: 'Dosis';
+  font-weight: 400;
+  font-size: 16px;
+   line-height: 1.5;
+  
+}
+.amy_miller_head-6789{
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 700;
+}
+.kyle_parker_p-6789{
+  font-family: 'Dosis';
+  font-weight: 400;
+  font-size: 16px;
+   line-height: 1.5;
+  
+}
+.kyle_parker_head-6789{
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 700;
+}
+.corporate_p-6789{
+  font-family: 'Dosis';
+  font-weight: 400;
+  font-size: 16px;
+   line-height: 1.5;
+  
+}
+.corporate_head-6789{
+  font-family: 'Dosis';
+  font-size: 16px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .bg-light-green {
+    padding: 1rem;
+    margin-right: 0;
+  }
+
+  .strongfirst-6789 {
+    font-size: 16px;
+  }
+
+  .amy_miller-6789 p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 480px) {
+  /* .bg-light-green {
+    padding: 0.8rem;
+  } */
+
+  .strongfirst-6789 {
+    font-size: 15px;
+  }
+
+  .amy_miller-6789 p {
+    font-size: 13px;
+  }
+}

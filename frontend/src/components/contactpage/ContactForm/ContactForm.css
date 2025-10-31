@@ -1,0 +1,168 @@
+.contact-form-6789 {
+  background-color: #ffffff;
+  padding: 25px;
+  border: none;
+  width: 100%;
+  max-width: 530px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+.form-title-6789 {
+  font-size: 16px;
+  font-family: "Dosis";
+  font-weight: 400;
+  color: #000000;
+}
+.label-firstname-contact-6789,
+.label-lastname-contact-6789,
+.label-email-contact-6789,
+.label-message-contact-6789 {
+  font-size: 16px;
+  font-family: "Dosis";
+  color: #222222;
+  font-weight: 600;
+}
+.input-small-6789 {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.input-message-6789,
+.input-email-6789 {
+  width: 100%;
+  resize: vertical;
+}
+
+.custom-submit-btn-6789 {
+  background-color: #77c720;
+  font-weight: 500;
+  font-size: 15px;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  color: #ffffff;
+  font-family: "Dosis";
+}
+
+.custom-submit-btn-6789:hover {
+  background-color: #6bb11d;
+}
+
+.my-custom-row-6789 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.my-custom-class-6789 {
+  flex: 1;
+  min-width: 200px;
+}
+
+.my-custom-row-6789 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.my-custom-class-6789 {
+  flex: 1;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 775px) and (max-width: 990px) {
+  .contact-form-6789 {
+    width: 800px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 25px;
+    box-sizing: border-box;
+  }
+
+  .my-custom-row-6789 {
+    flex-wrap: nowrap;
+  }
+
+  .my-custom-class-6789 {
+    flex: 1;
+    min-width: 0;
+  }
+}
+
+@media screen and (max-width: 774px) {
+  .my-custom-row-6789 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .my-custom-class-6789 {
+    min-width: 100%;
+  }
+  .contact-form-6789 {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  .contact-form-6789 {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contact-form-6789 {
+    max-width: 600px;
+    padding: 20px;
+  }
+  .custom-submit-btn-6789 {
+    font-size: 14px;
+    padding: 9px;
+  }
+}
+@media screen and (min-width: 775px) and (max-width: 990px) {
+  .contact-form-6789 {
+    max-width: 300px !important;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .my-custom-row-6789 {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .my-custom-class-6789 {
+    min-width: 100%;
+  }
+  .contact-form-6789 {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .contact-form-6789 {
+    padding: 15px;
+  }
+  .custom-submit-btn-6789 {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact-form-6789 {
+    max-width: 100%;
+    padding: 12px;
+  }
+  .custom-submit-btn-6789 {
+    font-size: 12px;
+    padding: 7px;
+  }
+}

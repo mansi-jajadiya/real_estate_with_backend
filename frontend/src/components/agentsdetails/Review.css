@@ -1,0 +1,115 @@
+.review-section {
+  background-color: #f5f5f5;
+  padding: 0 0;
+}
+.review {
+  background-color: #f5f5f5;
+  border: none;
+}
+
+.review-card,
+.property-card {
+  background: white;
+  border: none;
+  padding: 16px;
+  border-radius: 0 !important;
+}
+.review-card h5 {
+  font-family: "Playfair display";
+  font-weight: 400;
+}
+
+.review-title {
+  font-weight: 400;
+  color: #222222;
+  font-family: "Playfair display";
+  font-size: 18px;
+}
+
+.stars {
+  color: #ff9800;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.rating-text {
+  font-size: 16px;
+  color: #222222;
+  font-family: Dosis;
+}
+.plac::placeholder {
+  font-family: Dosis !important;
+}
+
+.review-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+.review-item h6 {
+  font-family: "Playfair display";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.review-meta {
+  font-size: 13px;
+  color: #636363;
+  font-family: Dosis;
+  margin-bottom: 4px;
+}
+
+.review-text {
+  font-size: 16px;
+  font-family: Dosis;
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+
+.like-dislike {
+  font-size: 16px;
+}
+
+.like {
+  margin-right: 12px;
+  color: #28a745;
+}
+.dislike {
+  color: #dc3545;
+}
+
+.alert-danger {
+  font-family: Dosis;
+}
+
+.btn-green {
+  background-color: #77c720;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-family: Dosis;
+}
+
+.btn-green:hover {
+  background-color: #7ab531;
+  color: white;
+}
+.category-label {
+  text-align: center;
+}
+.agentxy {
+  background: #77c720;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .review-avatar {
+    width: 50px;
+    height: 50px;
+  }
+  .review-title {
+    font-size: 1rem;
+  }
+}
